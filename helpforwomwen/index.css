@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-image: url(../helpforwomwen/imagem/foto\ de\ fundo\ desfocado.jpg);
+    background-size: cover;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  li {
+    position: relative;
+    margin-right: 185px;
+}
+  li a {
+    color: rgb(235, 127, 88);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+  li a:hover {
+    background-color: rgb(19, 19, 19);
+}
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    min-width: 30px;   
+}
+  .dropdown a {
+    color: white;
+    padding: 10px;
+    min-width: 10px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown a:hover {
+    background-color: black;
+  }
+  li:hover .dropdown {
+    display: block;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;  
+}
+a{
+    color: rgb(235, 127, 88);
+    font-size: 25px;
+    text-decoration: none;
+}
+.ftinicio img{
+    width: 1595px;
+    margin-top: 25px;
+}
+.logo img{
+    width: 150px;
+}
+.ddviolencia img{
+    width: 1595px;
+}
+.ddviolencia{
+    margin-top: 40px; 
+}
+footer{
+  background-color: black;
+}
+#logordp{
+    width: 150px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.linkrdp{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.linkrdp img{
+    width: 30px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.rrr{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-image: url(../imagem/foto\ de\ fundo\ desfocado.jpg);
+    background-size: cover;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  li {
+    position: relative;
+    margin-right: 185px;
+}
+  li a {
+    color: rgb(235, 127, 88);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+  li a:hover {
+    background-color: rgb(19, 19, 19);
+}
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    min-width: 30px;
+}
+  .dropdown a {
+    color: white;
+    padding: 10px;
+    min-width: 10px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown a:hover {
+    background-color: black;
+}
+  li:hover .dropdown {
+    display: block;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+    color: rgb(235, 127, 88);
+    font-size: 25px;
+    text-decoration: none;
+}
+.ftinicio img{
+    width: 1595px;
+    margin-top: 25px;
+}
+.logo img{
+    width: 150px;
+}
+.nome{
+    background-color: rgb(235, 127, 88);
+    color: white;
+}
+.inicio{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+#titulo2{
+  color: black;
+  margin-top: -40px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#titulo3{
+  margin-top: -30px;
+}
+.fisica img{
+  border-radius: 10px;
+  
+}
+h3{
+  margin-top: -20px;
+}
+.fisica{
+  flex-direction: flex;
+  display: flex;
+  gap: 10px;
+  border: 2px black;
+}
+.testes1{
+  width: 90%;
+  margin-left: 70px;
+  height: 500px;
+}
+.psicologia {
+  width: 90px;
+  margin-left: 70px;
+  height: 420px;
+  margin-top: 70px;
+  display: flex;
+}
+.psicologia img{
+  border-radius: 10px;
+}
+.sexual{
+  width: 90px;
+  margin-left: 70px;
+  height: 520px;
+  margin-top: 70px;
+  display: flex;
+}
+.sexual img{
+  border-radius: 10px;
+}
+.patrimonial{
+  width: 90px;
+  margin-left: 70px;
+  height: 520px;
+  margin-top: 70px;
+  display: flex;
+}
+.patrimonial img{
+  border-radius: 10px;
+}
+.moral{
+  width: 90px;
+  margin-left: 70px;
+  height: 410px;
+  margin-top: 70px;
+  display: flex;
+}
+.moral img{
+  border-radius: 10px;
+}
+footer{
+  background-color: black;
+}
+.rodape{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.rrr{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.linkrdp{
+  display: flex;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+
