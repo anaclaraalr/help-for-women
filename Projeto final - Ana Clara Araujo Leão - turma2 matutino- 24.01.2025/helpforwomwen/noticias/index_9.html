@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>News Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .news-item {
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+        }
+        .news-item img {
+            width: 200px;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .news-content {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .news-category {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .news-title {
+            color: #d32f2f;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        .news-meta {
+            color: #999;
+            font-size: 12px;
+        }
+        @media (max-width: 600px) {
+            .news-item {
+                flex-direction: column;
+            }
+            .news-item img {
+                width: 100%;
+                height: auto;
+                border-radius: 10px 10px 0 0;
+            }
+            .news-title {
+                font-size: 16px;
+            }
+            .news-meta {
+                font-size: 10px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="news-item">
+            <img src="https://placehold.co/200x150" alt="Image of police finding arsenal with group that attacked banks">
+            <div class="news-content">
+                <div class="news-category">Operação no Paraná</div>
+                <div class="news-title"><a href="https://www.youtube.com/" target="_blank">Polícia acha arsenal com grupo que atacava bancos; 6 suspeitos foram mortos</a>
+                    </div>
+                <div class="news-meta">Há 41 minutos — Em Campos Gerais e Sul</div>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="https://placehold.co/200x150" alt="Image of police finding arsenal with group that attacked banks">
+            <div class="news-content">
+                <div class="news-category">Operação no Paraná</div>
+                <div class="news-title"><a href="https://www.youtube.com/" target="_blank">Polícia acha arsenal com grupo que atacava bancos; 6 suspeitos foram mortos</a>
+                    </div>
+                <div class="news-meta">Há 41 minutos — Em Campos Gerais e Sul</div>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="https://placehold.co/200x150" alt="Image of police finding arsenal with group that attacked banks">
+            <div class="news-content">
+                <div class="news-category">Operação no Paraná</div>
+                <div class="news-title"><a href="https://www.youtube.com/" target="_blank">Polícia acha arsenal com grupo que atacava bancos; 6 suspeitos foram mortos</a>
+                    </div>
+                <div class="news-meta">Há 41 minutos — Em Campos Gerais e Sul</div>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="https://placehold.co/200x150" alt="Image of Correios workers on motorcycles">
+            <div class="news-content">
+                <div class="news-category">Oportunidades</div>
+                <div class="news-title">Concurso dos Correios: resultado preliminar é divulgado</div>
+                <div class="news-meta">
+                    Há 1 hora — Em Concursos
+                </div>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="https://placehold.co/200x150" alt="Image of a mobile phone showing Sisu application">
+            <div class="news-content">
+                <div class="news-category">Ensino superior</div>
+                <div class="news-title">Inscrições para mais de 260 mil vagas do Sisu começam hoje; veja macetes</div>
+                <div class="news-meta">Há 9 horas — Em Educação</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
